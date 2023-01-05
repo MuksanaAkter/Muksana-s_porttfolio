@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    font-family: 'open Sans' , sans-serif;
+}
+/* header and nav style */
+.header{
+    background-color: bisque;
+    background-image:  url('../images/muksana-removebg-preview.png')  ,url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,bottom right,left;
+    height: 850px;
+    background-size: 800px, auto,auto; 
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.nav-title{
+    background-color: bisque;
+    font-size: 800;
+    font-weight: 45px;
+}
+.btn{
+    color: aliceblue;
+    height: 64px;
+   
+    font-size: 20px;
+    top: 49px;
+    border: 0;
+    padding: 18px 35px;
+    font-weight: 700;
+    background-color: #ff6b02;
+    border-radius: 5px;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul,h2{
+    display: flex;
+    align-items: center;
+}
+.text-primary{
+    color: rgb(246, 106, 25);
+}
+/* banner style */
+.banner{
+    display: flex;
+    margin: 0 150px;
+    align-items: center;
+}
+.intro{
+font-weight: 600;
+font-size: 45px;
+margin-bottom: 20px;
+padding-top: 200px;
+}
+.name{
+    font-size: 85px;
+    font-weight: 700;
+}
+.description{
+    color: rgb(175, 163, 147);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#right
+{
+    text-align: right;
+}
+/* main and about style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    margin-top: 130px;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+   
+
+}
+.section-title{
+
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.section-description{
+    color: rgb(66, 70, 69);
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.about-cotain{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.info{
+    /* position: absolute;
+    width: 118px;
+    height: 60px;
+    left: 409px;
+    top: 1326px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    text-align: center;
+    /* Dark 03 
+    color: #757575; */
+}
+.info-title
+{
+ font-size: 20px;
+ color: #757575;
+}
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: #757575;
+
+}
