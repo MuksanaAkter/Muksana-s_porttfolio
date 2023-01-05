@@ -5,13 +5,15 @@
 /* header and nav style */
 .header{
     background-color: bisque;
-    background-image:  url('../images/muksana-removebg-preview.png')  ,url('../images/header_bg.png'), url(../images/developer.png);
+    background-image: url(../images/mycartoon.png),  url('../images/header_bg.png'), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right,bottom right,left;
+    background-position:bottom right ,bottom right,left;
     height: 850px;
-    background-size: 800px, auto,auto; 
+    background-size: 400px 700px, auto,auto; 
+
     
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -22,6 +24,7 @@ nav{
     background-color: bisque;
     font-size: 800;
     font-weight: 45px;
+    font-size: 40px;
 }
 .btn{
     color: aliceblue;
@@ -61,7 +64,7 @@ padding-top: 200px;
 }
 .name{
     font-size: 85px;
-    font-weight: 700;
+    font-weight: 800;
 }
 .description{
     color: rgb(175, 163, 147);
