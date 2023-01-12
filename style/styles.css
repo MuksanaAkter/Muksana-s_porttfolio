@@ -227,3 +227,81 @@ input{
     height: 55px;
     width: 150px;
 }
+@media screen and (max-width:576px) {
+    *{
+        margin-right: 00px;
+       
+    }
+    
+.skill-contain{
+    flex-direction: column;
+     justify-content: center;
+     text-align: center;  
+     padding: 10px 15px;
+
+}
+.r-contain{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px 25px;
+
+}
+.banner,.about-cotain{
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px 20px;
+}
+.header{
+    background-image: none;
+    
+}
+nav{
+    margin: 5px 5px;
+}
+.nav-title{
+    font-size: 30px;
+}
+nav ul{
+    flex-direction: column;
+    gap: 10px;
+}
+nav .btn{
+    width: 60px;
+    padding-left: 15px;
+}
+.blog{
+    padding: 0px 0px;
+}
+.intro{
+    font-size: 30px;
+}
+.name{
+    font-size: 40px;
+}
+.btn{
+    height: 40px;
+    font-size: 15px;
+    width: 180px;
+   margin-bottom: 10px;
+    padding-top: 5px;
+    
+}
+.about{
+    padding: 5px 20px;
+}
+.c-contain{
+    padding: 10px 20px;
+    flex-direction: column;
+}
+.contact input, textarea {
+    padding: 15px 0px;
+
+}
+.what-text{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+/* @media screen and (min-width:577px) and (max-width:992px) {
+
+} */
