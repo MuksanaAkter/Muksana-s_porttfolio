@@ -68,7 +68,7 @@ padding-top: 200px;
     font-weight: 800;
 }
 .description{
-    color: rgb(175, 163, 147);
+    color: rgb(12, 8, 3);
     font-size: 18px;
     margin-bottom: 30px;
 }
@@ -252,28 +252,47 @@ input{
     padding: 5px 20px;
 }
 .header{
-    background-image: none;
-    
+    background-color: bisque;
+    background-image: url(../images/mycartoon.png),  url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position:bottom right ,bottom right,left;
+    height: 850px;
+    background-size: 150px 300px, 300px,60px; 
+
 }
 nav{
     margin: 5px 5px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 5px;
 }
 .nav-title{
     font-size: 30px;
 }
 nav ul{
     flex-direction: column;
+    margin: 0px 0px;
     gap: 10px;
+    align-items: flex-start;
+    padding: 0px 0px 0px 0px;
+    margin-left: 0;
+}
+nav li{
+    margin: 0;
+    font-size: 20px;
+    
 }
 nav .btn{
     width: 60px;
-    padding-left: 15px;
+    height: 30px;
+    padding-left: 18px;
 }
 .blog{
     padding: 0px 0px;
 }
 .intro{
     font-size: 30px;
+    padding-top: 10px;
 }
 .name{
     font-size: 40px;
@@ -281,9 +300,10 @@ nav .btn{
 .btn{
     height: 40px;
     font-size: 15px;
-    width: 180px;
+    width: 150px;
    margin-bottom: 10px;
-    padding-top: 5px;
+   padding: 0px;
+
     
 }
 .about{
